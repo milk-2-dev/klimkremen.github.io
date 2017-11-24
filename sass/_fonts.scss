@@ -1,0 +1,20 @@
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+										1. Fonts
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Jura&subset=cyrillic');
+
+//font-family: 'Jura', sans-serif;
+
+@font-face {
+  font-family: 'RoadRadio';
+  src: url('../fonts/roadradio.eot');
+  src: url('../fonts/roadradio.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/roadradio.woff') format('woff'),
+  url('../fonts/roadradio.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
