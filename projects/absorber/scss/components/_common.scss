@@ -1,0 +1,78 @@
+//variables
+$colors: (
+        'yellow': #ffef3f,
+        'red': #c50019
+);
+
+
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src: url("../fonts/RobotoCondensed/Regular.eot#iefix") format("embedded-opentype"),
+  url("../fonts/RobotoCondensed/Regular.woff") format("woff"),
+  url("../fonts/RobotoCondensed/Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; 
+}
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; 
+}
+
+body {
+  margin: 0;
+  font-family: RobotoCondensed-Regular, Arial, sans-serif;
+  font-size: 16px;
+  background: #000;
+}
+
+section{
+	//padding: 50px 0;
+}
+a{
+	&:hover{
+		cursor: pointer;
+	}
+}
+h1,h2{
+	margin: 5px 0;
+}
+h1{
+	font-size: 48px;
+}
+h2{
+	font-size: 28px;
+}
+.button{
+  text-align: center;
+  padding: 15px 10px;
+  width: 230px;
+  display: inline-block;
+  font-size: 16px;
+
+  &.black{
+    color: #000;
+    border: 2px solid #000;
+  }
+
+  &.yellow{
+    color: map_get($colors, 'yellow');
+    border: 2px solid map_get($colors, 'yellow');
+  }
+
+  &:hover,
+  &:focus{
+    text-decoration: none;
+  }
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.2s ease; color:#000;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.2s ease; color:#000;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.2s ease; color:#000;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.2s ease; color:#000;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.2s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.2s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.2s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.2s ease;}
