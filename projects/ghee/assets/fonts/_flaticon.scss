@@ -1,0 +1,179 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 21/08/2017 08:13
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-barrel-1:before { content: "\f100"; }
+.flaticon-002-oil-1:before { content: "\f101"; }
+.flaticon-003-garbage:before { content: "\f102"; }
+.flaticon-004-light-bulb-1:before { content: "\f103"; }
+.flaticon-005-folder:before { content: "\f104"; }
+.flaticon-006-nuclear-power-1:before { content: "\f105"; }
+.flaticon-007-solar-energy-2:before { content: "\f106"; }
+.flaticon-008-water-drop:before { content: "\f107"; }
+.flaticon-009-trash-1:before { content: "\f108"; }
+.flaticon-010-water:before { content: "\f109"; }
+.flaticon-011-water-energy-1:before { content: "\f10a"; }
+.flaticon-012-plug-2:before { content: "\f10b"; }
+.flaticon-013-plug-1:before { content: "\f10c"; }
+.flaticon-014-oil:before { content: "\f10d"; }
+.flaticon-015-nuclear-plant-4:before { content: "\f10e"; }
+.flaticon-016-recycling-truck:before { content: "\f10f"; }
+.flaticon-017-trash:before { content: "\f110"; }
+.flaticon-018-recycling-1:before { content: "\f111"; }
+.flaticon-019-water-pollution:before { content: "\f112"; }
+.flaticon-020-factory-4:before { content: "\f113"; }
+.flaticon-021-electric-tower-1:before { content: "\f114"; }
+.flaticon-022-planet-earth:before { content: "\f115"; }
+.flaticon-023-barrel:before { content: "\f116"; }
+.flaticon-024-wagon:before { content: "\f117"; }
+.flaticon-025-factory-3:before { content: "\f118"; }
+.flaticon-026-nuclear-power:before { content: "\f119"; }
+.flaticon-027-nuclear-plant-3:before { content: "\f11a"; }
+.flaticon-028-can:before { content: "\f11b"; }
+.flaticon-029-clipboard:before { content: "\f11c"; }
+.flaticon-030-solar-energy-1:before { content: "\f11d"; }
+.flaticon-031-electric-car:before { content: "\f11e"; }
+.flaticon-032-montain-1:before { content: "\f11f"; }
+.flaticon-033-montain:before { content: "\f120"; }
+.flaticon-034-global-warming-1:before { content: "\f121"; }
+.flaticon-035-global-warming:before { content: "\f122"; }
+.flaticon-036-ecology-1:before { content: "\f123"; }
+.flaticon-037-industry:before { content: "\f124"; }
+.flaticon-038-ecology:before { content: "\f125"; }
+.flaticon-039-donation:before { content: "\f126"; }
+.flaticon-040-flower:before { content: "\f127"; }
+.flaticon-041-idea:before { content: "\f128"; }
+.flaticon-042-sprout-2:before { content: "\f129"; }
+.flaticon-043-sprout-1:before { content: "\f12a"; }
+.flaticon-044-sprout:before { content: "\f12b"; }
+.flaticon-045-faucet:before { content: "\f12c"; }
+.flaticon-046-barrels:before { content: "\f12d"; }
+.flaticon-047-battery:before { content: "\f12e"; }
+.flaticon-048-trash-can:before { content: "\f12f"; }
+.flaticon-049-recycling-bin-2:before { content: "\f130"; }
+.flaticon-050-recycling-bin-1:before { content: "\f131"; }
+.flaticon-051-recycling-bag:before { content: "\f132"; }
+.flaticon-052-nuclear-plant-2:before { content: "\f133"; }
+.flaticon-053-factory-2:before { content: "\f134"; }
+.flaticon-054-factory-1:before { content: "\f135"; }
+.flaticon-055-factory:before { content: "\f136"; }
+.flaticon-056-electricity:before { content: "\f137"; }
+.flaticon-057-nuclear-plant-1:before { content: "\f138"; }
+.flaticon-058-wind-turbine:before { content: "\f139"; }
+.flaticon-059-recycling:before { content: "\f13a"; }
+.flaticon-060-electric-tower:before { content: "\f13b"; }
+.flaticon-061-solar-panel:before { content: "\f13c"; }
+.flaticon-062-rain:before { content: "\f13d"; }
+.flaticon-063-recycle-bin:before { content: "\f13e"; }
+.flaticon-064-light-bulb:before { content: "\f13f"; }
+.flaticon-065-plug:before { content: "\f140"; }
+.flaticon-066-solar-energy:before { content: "\f141"; }
+.flaticon-067-water-energy:before { content: "\f142"; }
+.flaticon-068-recycle-water:before { content: "\f143"; }
+.flaticon-069-nuclear-plant:before { content: "\f144"; }
+.flaticon-070-recycling-bin:before { content: "\f145"; }
+    
+    $font-Flaticon-001-barrel-1: "\f100";
+    $font-Flaticon-002-oil-1: "\f101";
+    $font-Flaticon-003-garbage: "\f102";
+    $font-Flaticon-004-light-bulb-1: "\f103";
+    $font-Flaticon-005-folder: "\f104";
+    $font-Flaticon-006-nuclear-power-1: "\f105";
+    $font-Flaticon-007-solar-energy-2: "\f106";
+    $font-Flaticon-008-water-drop: "\f107";
+    $font-Flaticon-009-trash-1: "\f108";
+    $font-Flaticon-010-water: "\f109";
+    $font-Flaticon-011-water-energy-1: "\f10a";
+    $font-Flaticon-012-plug-2: "\f10b";
+    $font-Flaticon-013-plug-1: "\f10c";
+    $font-Flaticon-014-oil: "\f10d";
+    $font-Flaticon-015-nuclear-plant-4: "\f10e";
+    $font-Flaticon-016-recycling-truck: "\f10f";
+    $font-Flaticon-017-trash: "\f110";
+    $font-Flaticon-018-recycling-1: "\f111";
+    $font-Flaticon-019-water-pollution: "\f112";
+    $font-Flaticon-020-factory-4: "\f113";
+    $font-Flaticon-021-electric-tower-1: "\f114";
+    $font-Flaticon-022-planet-earth: "\f115";
+    $font-Flaticon-023-barrel: "\f116";
+    $font-Flaticon-024-wagon: "\f117";
+    $font-Flaticon-025-factory-3: "\f118";
+    $font-Flaticon-026-nuclear-power: "\f119";
+    $font-Flaticon-027-nuclear-plant-3: "\f11a";
+    $font-Flaticon-028-can: "\f11b";
+    $font-Flaticon-029-clipboard: "\f11c";
+    $font-Flaticon-030-solar-energy-1: "\f11d";
+    $font-Flaticon-031-electric-car: "\f11e";
+    $font-Flaticon-032-montain-1: "\f11f";
+    $font-Flaticon-033-montain: "\f120";
+    $font-Flaticon-034-global-warming-1: "\f121";
+    $font-Flaticon-035-global-warming: "\f122";
+    $font-Flaticon-036-ecology-1: "\f123";
+    $font-Flaticon-037-industry: "\f124";
+    $font-Flaticon-038-ecology: "\f125";
+    $font-Flaticon-039-donation: "\f126";
+    $font-Flaticon-040-flower: "\f127";
+    $font-Flaticon-041-idea: "\f128";
+    $font-Flaticon-042-sprout-2: "\f129";
+    $font-Flaticon-043-sprout-1: "\f12a";
+    $font-Flaticon-044-sprout: "\f12b";
+    $font-Flaticon-045-faucet: "\f12c";
+    $font-Flaticon-046-barrels: "\f12d";
+    $font-Flaticon-047-battery: "\f12e";
+    $font-Flaticon-048-trash-can: "\f12f";
+    $font-Flaticon-049-recycling-bin-2: "\f130";
+    $font-Flaticon-050-recycling-bin-1: "\f131";
+    $font-Flaticon-051-recycling-bag: "\f132";
+    $font-Flaticon-052-nuclear-plant-2: "\f133";
+    $font-Flaticon-053-factory-2: "\f134";
+    $font-Flaticon-054-factory-1: "\f135";
+    $font-Flaticon-055-factory: "\f136";
+    $font-Flaticon-056-electricity: "\f137";
+    $font-Flaticon-057-nuclear-plant-1: "\f138";
+    $font-Flaticon-058-wind-turbine: "\f139";
+    $font-Flaticon-059-recycling: "\f13a";
+    $font-Flaticon-060-electric-tower: "\f13b";
+    $font-Flaticon-061-solar-panel: "\f13c";
+    $font-Flaticon-062-rain: "\f13d";
+    $font-Flaticon-063-recycle-bin: "\f13e";
+    $font-Flaticon-064-light-bulb: "\f13f";
+    $font-Flaticon-065-plug: "\f140";
+    $font-Flaticon-066-solar-energy: "\f141";
+    $font-Flaticon-067-water-energy: "\f142";
+    $font-Flaticon-068-recycle-water: "\f143";
+    $font-Flaticon-069-nuclear-plant: "\f144";
+    $font-Flaticon-070-recycling-bin: "\f145";
