@@ -386,7 +386,9 @@
     border-radius: 0;
     color: #fff;
     padding: 10px 20px;
-    float: right; }
+    float: right;
+    background: transparent;
+  }
     @media (max-width: 767px) {
       .section-title button {
         float: none;
