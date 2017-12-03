@@ -235,6 +235,11 @@ h1 {
       #footer .social ul li:last-child {
         margin-right: 0; }
 
+.premier-banner {
+  max-width: 180px;
+  display: block;
+  margin: 0 auto; }
+
 .text-gray {
   color: #a9a9a9; }
 
