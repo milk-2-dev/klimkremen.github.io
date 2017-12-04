@@ -481,6 +481,10 @@ h1 {
           -ms-flex-direction: column;
               flex-direction: column; }
       .form-custom .form-horizontal .form-item {
-        margin-right: 0; } }
+        margin-right: 0; }
+    .form-custom .form-button .button {
+      padding: 10px; }
+  #footer {
+    text-align: center; } }
 
 /* ============================ Media max-550px ============================ */
