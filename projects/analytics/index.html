@@ -23,7 +23,7 @@
                 <div class="col-md-4">
                     <a class="logo" href="">
                         <span>SOTNIK</span>
-                        <span>АГЕНТСТВО КОНТЕКСТНОЙ РЕКЛАМЫ</span>
+                        <!--<span>АГЕНТСТВО КОНТЕКСТНОЙ РЕКЛАМЫ</span>-->
                     </a>
                 </div>
                 
@@ -64,13 +64,11 @@
                         </p>
 
                         <div class="order-button_1">
-                            <a href="" class="button bg-blue">Получить консультацию</a>
+                            <a href="" class="main-button btn-1">Получить консультацию</a>
                         </div>
 
                     </div>
                 </div>
-
-
             </div>
         </section>
 
@@ -139,7 +137,7 @@
                         <a class="text-gray text-uppercase" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             Текст видео
                         </a>
-                        <div class="collapse" id="collapseExample">
+                        <div class="collapse fade" id="collapseExample">
                             <div class="card card-block">
                                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
                             </div>
@@ -198,7 +196,7 @@
                                 <b class="color-blue">Узнаете</b> как и куда распределяются ваши маркетинговые бюджеты
                             </li>
                             <li>
-                                <b class="color-blue">Сможете</b>  оценить работу маркетингового отдела или подрядчика по маркетингу на основе реальных данных о продажах
+                                <b class="color-blue">Сможете</b>  оценить работу маркетингового отдела или подрядчика по маркетингу <u>на основе реальных данных о продажах</u>
                             </li>
                             <li>
                                 <b class="color-blue">Высвободите</b>   свое время для более важных задач, так как все необходимые данные будут собраны в одном месте
@@ -209,30 +207,31 @@
                         <form action="" class="form-custom label_color-white">
                             <div class="form-item">
                                 <label for="">Имя</label>
-                                <input type="text">
+                                <div class="pretty-input">
+                                    <input class="form-control" type="text" placeholder="Введите имя">
+                                    <i class="fa fa-user"></i>
+                                </div>
+
                             </div>
                             <div class="form-item">
                                 <label for="">Номер телефона</label>
-                                <input type="text">
+                                <div class="pretty-input">
+                                    <input class="form-control" type="text" placeholder="Введите номер телефона">
+                                    <i class="fa fa-phone"></i>
+                                </div>
                             </div>
 
                             <div class="form-button">
-                                <button class="button bg-white">ЗАКАЗАТЬ НАСТРОЙКУ</button>
+                                <button class="main-button btn-1">ЗАКАЗАТЬ НАСТРОЙКУ</button>
+                            </div>
+
+                            <p class="confidential">
+                                <i class="fa fa-lock"></i>
+                                <a data-toggle="modal" data-target="#privacy-policy" href=""> Политика конфиденциальности</a>
+                            </p>
                         </form>
                     </div>
                 </div>
-
-
-
-                <!--<p class="order-text_1">Мы гарантируем только грамотную настройку подобной системы, что в свою очередь позволит за выбранный-->
-                    <!--отчетный период дать корректную оценку эффективности рекламных каналов, получить рекомендации по их-->
-                    <!--доработке и оптимальном использовании инвестиций в маркетинговую активность.</p>-->
-
-                <!--<div class="order-button_2">-->
-                    <!--<a class="button bg-white" href="" class="button">ЗАКАЗАТЬ НАСТРОЙКУ</a>-->
-                <!--</div>-->
-
-
             </div>
         </section>
 
@@ -251,10 +250,11 @@
                                 </h5>
                             </div>
 
-                            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                            <div id="collapseOne" class="collapse fade show" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
                                 <div class="card-block">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus assumenda autem explicabo magnam sequi!
-                                    Accusamus amet at consequuntur, exercitationem explicabo fugit inventore laudantium, non praesentium quam, quidem reiciendis tempora voluptatibus!
+                                    Коэффициент рентабельности вложений, иллюстрирует уровень доходности или убыточности маркетинговых вложений.
+                                    При реализации сквозной аналитики вы сможете оценить эффективность по каждому источнику трафика, рекламной кампании
+                                    и даже ключевому слову. Правильное распределение бюджетов на основе полученных данных позволит значительно увеличить ваш доход.
                                 </div>
                             </div>
                         </div>
@@ -266,9 +266,11 @@
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div id="collapseTwo" class="collapse fade" role="tabpanel" aria-labelledby="headingTwo">
                                 <div class="card-block">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, hic.
+                                    Средняя стоимость товаров/услуг, приобретенных за одну покупку.
+                                    Позволит оценить покупательскую способность ваших клиентов, а
+                                    также покажет, как ваши маркетинговые активности влияют на конечный доход.
                                 </div>
                             </div>
                         </div>
@@ -280,9 +282,11 @@
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div id="collapseThree" class="collapse fade" role="tabpanel" aria-labelledby="headingThree">
                                 <div class="card-block">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Коэффициент, который показывает процентное соотношение пользователей совершивших покупку к общему количеству
+                                    обратившихся посетителей, оставивших заявку. Позволит определить на
+                                    каком этапе воронки продаж вы теряете своих клиентов.
                                 </div>
                             </div>
                         </div>
@@ -294,9 +298,9 @@
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div id="collapseFour" class="collapse fade" role="tabpanel" aria-labelledby="headingFour">
                                 <div class="card-block">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Реальная стоимость заявки/звонка по рекламным источникам, кампаниям и ключевым словам. Она позволяет правильно оптимизировать существующие рекламные кампании.
                                 </div>
                             </div>
                         </div>
@@ -308,10 +312,10 @@
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+                            <div id="collapseFive" class="collapse fade" role="tabpanel" aria-labelledby="headingFive">
                                 <div class="card-block">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, nostrum, perspiciatis? Aut consequatur cumque distinctio, ea eveniet iure labore laborum magni nihil, quasi repudiandae sed! Commodi harum, officiis? Dolor fugit natus numquam perspiciatis, provident ratione? Adipisci alias amet, assumenda cum eos eveniet fuga, fugiat incidunt inventore iste iusto laborum laudantium libero maiores molestiae necessitatibus neque nihil nisi odio perferendis praesentium quis quo reprehenderit unde voluptatibus! Accusantium esse laudantium minus officia, rem tempora. Accusantium, ad beatae consectetur consequatur deleniti dolorem doloribus earum eligendi, esse eum eveniet expedita explicabo fugit illo iste maiores molestiae mollitia nihil quisquam reprehenderit saepe sunt suscipit ullam ut, velit vitae voluptatum. Accusamus, ad aliquid aut beatae deleniti doloremque eaque, illo impedit maxime nulla omnis perferendis, perspiciatis porro quae quod recusandae sapiente totam vel veritatis voluptates! At dignissimos dolor doloribus laudantium quibusdam sed veritatis voluptatem. Aliquid consectetur doloremque in incidunt laborum maxime, officia, quis sequi ullam veritatis vero.
-                                </div>
+                                    Реальная стоимость посетителя с различных рекламным источников, кампаний и ключевых слов.
+                                    Зная точную стоимость посетителя вы с лёгкостью сможете планировать бюджеты на привлечение новых клиентов.                                </div>
                             </div>
                         </div>
                         <div class="card">
@@ -322,37 +326,39 @@
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+                            <div id="collapseSix" class="collapse fade" role="tabpanel" aria-labelledby="headingSix">
                                 <div class="card-block">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto autem deserunt. Ad animi facilis nisi odio pariatur quae, sapiente.
-                                </div>
+                                    Показатель, который демонстрирует совокупную прибыль компании с одного клиента.
+                                    Изучив LTV ваших клиентов с различных источников трафика вы сможете понять какие каналы окупаются в
+                                    долгосрочной перспективе, а какие и вовсе не приносят прибыль, и от них стоит отказаться, чтобы не выбрасывать деньги.                                </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" role="tab" id="headingSeven">
                                 <h5 class="mb-0">
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
-                                        Cpo
+                                        КОНВЕРСИЯ В ЗАЯВКУ
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
+                            <div id="collapseSeven" class="collapse fade" role="tabpanel" aria-labelledby="headingSeven">
                                 <div class="card-block">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </div>
+                                    Соотношение пользователей, которые оставили заявку на товар или услугу, к общему количеству посетителей вашего сайта.
+                                    Проанализировав этот показатель вы сможете внести необходимые изменения на ваш сайт и увеличить количество входящих звонков.                                </div>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header" role="tab" id="headingEight">
                                 <h5 class="mb-0">
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
-                                        cpa
+                                        CPS
                                     </a>
                                 </h5>
                             </div>
-                            <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
+                            <div id="collapseEight" class="collapse fade" role="tabpanel" aria-labelledby="headingEight">
                                 <div class="card-block">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium, animi aperiam architecto asperiores, atque debitis dolore dolores enim expedita impedit iste laborum nulla officia optio pariatur sed tempora, unde.
+                                    Стоимость привлечения одного клиента/покупателя.
+                                    Данный показатель подскажет в какие рекламные источники стоит увеличивать вложения, а в какие наоборот — снизить.
                                 </div>
                             </div>
                         </div>
@@ -509,16 +515,28 @@
                         <form action="" class="form-custom label_color-white">
                             <div class="form-item">
                                 <label for="">Имя</label>
-                                <input type="text">
+                                <div class="pretty-input">
+                                    <input class="form-control" type="text" placeholder="Введите имя">
+                                    <i class="fa fa-user"></i>
+                                </div>
+
                             </div>
                             <div class="form-item">
                                 <label for="">Номер телефона</label>
-                                <input type="text">
+                                <div class="pretty-input">
+                                    <input class="form-control" type="text" placeholder="Введите номер телефона">
+                                    <i class="fa fa-phone"></i>
+                                </div>
                             </div>
 
                             <div class="form-button">
-                                <button class="button bg-blue">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+                                <button class="main-button btn-1">ЗАКАЗАТЬ НАСТРОЙКУ</button>
                             </div>
+
+                            <p class="confidential">
+                                <i class="fa fa-lock"></i>
+                                <a data-toggle="modal" data-target="#privacy-policy" href=""> Политика конфиденциальности</a>
+                            </p>
                         </form>
                     </div>
                     <div class="col-md-6 contacts-list">
