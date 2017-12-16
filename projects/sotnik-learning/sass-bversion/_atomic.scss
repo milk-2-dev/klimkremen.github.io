@@ -1,0 +1,27 @@
+.text-gray{
+  color: map_get($colors, 'gray');
+}
+
+.padding_b_100{
+  padding-bottom:100px;
+}
+
+.padding_b_150{
+  padding-bottom:150px;
+}
+
+.color-white{
+  color:#fff;
+}
+
+.color-blue{
+  color:map_get($colors, 'blue');
+}
+
+.bg-blue{
+  background-color: map_get($colors, 'light-blue');
+
+  .section-block__title{
+    color: #fff;
+  }
+}

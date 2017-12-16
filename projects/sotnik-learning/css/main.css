@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 50px;
-  margin: 0 0 60px; }
+  margin: 0 0 30px; }
 
 h2 {
   font-size: 2.25em;
@@ -140,11 +140,10 @@ img {
   position: relative; }
 
 .first-screen {
-  padding: 0;
+  padding: 0 15px;
   height: -webkit-calc(100vh - 83px);
   height: calc(100vh - 83px);
-  min-height: 715px;
-  max-height: 1000px;
+  min-height: 630px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -156,20 +155,18 @@ img {
   position: relative;
   z-index: 1; }
   .first-screen > .container {
-    background: #fff;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0;
     -webkit-border-radius: 8px;
             border-radius: 8px;
-    background: rgba(0, 0, 0, 0.4);
-    position: relative; }
+    background: rgba(0, 0, 0, 0.4); }
 
 h1 {
   font-weight: 700;
   color: #fff;
   text-align: center;
   position: relative;
-  padding: 40px 0; }
+  padding: 50px 0 20px; }
   h1 i {
     font-style: normal;
     display: block; }
@@ -201,8 +198,10 @@ h1 {
 
 .onsale-section {
   position: absolute;
-  top: -7px;
-  right: 15px; }
+  top: -15px;
+  right: 0;
+  left: 0;
+  margin: 0 auto; }
 
 .onsale-section:after {
   position: absolute;
@@ -210,50 +209,34 @@ h1 {
   display: block;
   width: 0;
   height: 0;
-  border-left: 56px solid transparent;
-  border-right: 56px solid transparent;
-  border-top: 6px solid #619efb; }
+  border-left: 122px solid transparent;
+  border-right: 122px solid transparent;
+  border-top: 10px solid #f16f26;
+  right: 0;
+  left: 0;
+  margin: 0 auto; }
 
 .onsale {
   position: relative;
-  display: inline-block;
   text-align: center;
   color: #fff;
-  background: #619efb;
-  font-size: 14px;
+  background: #f16f26;
+  font-size: 30px;
   line-height: 1;
   padding: 12px 8px 6px;
   -webkit-border-top-right-radius: 8px;
           border-top-right-radius: 8px;
-  width: 112px;
+  -webkit-border-top-left-radius: 8px;
+          border-top-left-radius: 8px;
+  width: 245px;
   text-transform: uppercase;
-  font-family: roadradio; }
-
-.onsale:before,
-.onsale:after {
-  position: absolute;
-  content: '';
-  display: block; }
-
-.onsale:before {
-  background: #619efb;
-  height: 7px;
-  width: 6px;
-  left: -6px;
-  top: 0; }
-
-.onsale:after {
-  background: #96a0a2;
-  height: 7px;
-  width: 8px;
-  -webkit-border-radius: 8px 8px 0 0;
-          border-radius: 8px 8px 0 0;
-  left: -8px;
-  top: 0; }
+  font-family: roadradio;
+  margin: 0 auto; }
 
 .order-block {
   border: 1px solid #fff;
-  padding: 30px 30px; }
+  padding: 30px;
+  text-align: center; }
   .order-block.date-sort ul {
     margin: 0;
     padding: 0;
@@ -370,6 +353,13 @@ h1 {
       background: #fff;
       color: #327dea;
       border-color: #327dea; }
+  .button.bg-orange {
+    border: 2px solid #fff;
+    background: #f16f26;
+    color: #fff; }
+    .button.bg-orange:hover {
+      background: #fff;
+      color: #f16f26; }
 
 .main-button {
   font-family: 'roadradio';
@@ -658,28 +648,36 @@ a.animated-button.victoria-two:after {
   font-style: normal; }
 
 /* ============================ Media max-1200px ============================ */
+@media (max-width: 1200px) {
+  .first-screen {
+    min-height: 760px; } }
+
 /* ============================ Media max-992px ============================ */
 @media (max-width: 992px) {
   #header .logo {
     padding: 0; }
   .first-screen {
-    padding: 40px 0; }
+    padding: 40px 0;
+    min-height: 860px; }
     .first-screen h1 {
-      font-size: 45px; } }
+      font-size: 45px;
+      margin: 0; } }
 
 /* ============================ Media max-767px ============================ */
 @media (max-width: 767px) {
   .first-screen {
     height: auto;
-    padding: 70px 0;
+    padding: 70px 15px;
     min-height: 0;
     max-height: 100%; }
+    .first-screen > .container {
+      width: 100%; }
     .first-screen h1 {
       font-size: 30px; }
   #header {
     text-align: center; }
   .logo {
-    margin: 0 auto; }
+    margin: 0 auto 20px; }
   .header-number {
     float: none;
     display: inline-block; }
@@ -701,7 +699,17 @@ a.animated-button.victoria-two:after {
     .form-custom .form-button .button {
       padding: 10px; }
   #footer {
-    text-align: center; } }
+    text-align: center; }
+  .onsale {
+    font-size: 16px; }
+  .description li:last-child {
+    margin-bottom: 20px; }
+  h1 {
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 10px 0 20px; } }
 
 /* ============================ Media max-550px ============================ */
 .thk-body {
