@@ -792,8 +792,6 @@ a.animated-button.victoria-two:after {
     .questions-block ul li {
       margin-bottom: 15px;
       font-size: 20px; }
-      .questions-block ul li:last-child {
-        margin-bottom: 0; }
 
 .questions-title {
   font-size: 30px;
