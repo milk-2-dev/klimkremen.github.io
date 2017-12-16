@@ -27,4 +27,26 @@ function customCollapse(){
     })
 }
 
-customCollapse()
+customCollapse();
+
+$('.owl-carousel').owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    dots: false,
+    nav: false,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
+
+
+// jQuery(function($){
+//     $("#phone").mask("+38(999) 999-9999");
+// });
