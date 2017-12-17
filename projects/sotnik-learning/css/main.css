@@ -251,13 +251,38 @@ h1 {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
 
 .order-price {
   text-align: center;
   color: #fff;
-  font-size: 50px;
-  margin-bottom: 30px; }
+  font-size: 50px; }
+  .order-price ul {
+    font-size: 22px;
+    margin-bottom: 20px; }
+    .order-price ul li {
+      padding: 0;
+      margin: 0;
+      opacity: .6; }
+      .order-price ul li.actual {
+        -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+                transform: scale(1.2);
+        opacity: 1; }
+      .order-price ul li.overdue {
+        position: relative; }
+        .order-price ul li.overdue:after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 100%;
+          max-width: 400px;
+          height: 2px;
+          background: #fff;
+          -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%); }
 
 .order-price__old {
   position: relative;
@@ -319,7 +344,7 @@ h1 {
 
 .button {
   display: inline-block;
-  padding: 10px 32px 8px;
+  padding: 10px 20px 8px;
   text-transform: uppercase;
   text-align: center;
   -webkit-transition: .2s ease-in-out;

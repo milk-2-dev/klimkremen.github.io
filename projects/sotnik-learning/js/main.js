@@ -47,6 +47,47 @@ $('.owl-carousel').owlCarousel({
 })
 
 
-// jQuery(function($){
-//     $("#phone").mask("+38(999) 999-9999");
-// });
+// looking for date
+function dynamicPrice(block){
+    var today = new Date();
+    var blockItems = $(block).children();
+    console.log('blockItems '+ blockItems);
+
+    $(blockItems).each(function(){
+        var dateYear = +($(this).attr('data-year'));
+        var dateMonth = +($(this).attr('data-month'));
+        var dateDay = +($(this).attr('data-day'));
+
+        if(dateMonth > 0){
+            dateMonth -= 1; // because number of month start from 0
+        }
+        else{
+            dateMonth = 0;
+        }
+
+        var endSaleDay = new Date(dateYear, dateMonth, dateDay);
+
+        //console.log('startSaleDay---------- '+ startSaleDay);
+
+        var startSaleMonth = endSaleDay.getMonth() - 1;
+        var startSaleDay = new Date(dateYear, startSaleMonth, dateDay);
+
+        console.log('today--------- '+ today);
+        console.log('startSaleMonth--------- '+ startSaleDay);
+        console.log('endSaleDay--------- '+ endSaleDay);
+
+        if(today <= endSaleDay && today > startSaleDay){
+            $(this).addClass('actual')
+        }
+        else if(today > endSaleDay){
+            $(this).addClass('overdue');
+            $(this).removeClass('actual');
+        }
+
+        // if(today > startSaleDay && today < endSaleDay){
+        //     $(this).addClass('actual')
+        // }
+
+    })
+}
+dynamicPrice('#saleTimer');

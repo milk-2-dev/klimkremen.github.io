@@ -197,9 +197,6 @@ h1 {
       top: 9px;
       left: 0;
       color: #fff; }
-  .description .order-price ul {
-    font-size: 35px;
-    margin-bottom: 0; }
 
 .premier-banner {
   max-width: 180px;
@@ -208,11 +205,12 @@ h1 {
 
 .onsale-section {
   position: absolute;
-  top: -65px;
+  top: -40px;
   right: 0;
   left: 0;
   margin: 0 auto;
-  z-index: 2; }
+  z-index: 2;
+  max-width: 245px; }
 
 .onsale-section:after {
   position: absolute;
@@ -267,6 +265,32 @@ h1 {
   text-align: center;
   color: #fff;
   font-size: 50px; }
+  .order-price ul {
+    font-size: 26px;
+    margin-bottom: 0; }
+    .order-price ul li {
+      padding: 0;
+      margin: 0;
+      opacity: .6; }
+      .order-price ul li.actual {
+        -webkit-transform: scale(1.7);
+            -ms-transform: scale(1.7);
+                transform: scale(1.7);
+        opacity: 1; }
+      .order-price ul li.overdue {
+        position: relative; }
+        .order-price ul li.overdue:after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 100%;
+          max-width: 400px;
+          height: 2px;
+          background: #fff;
+          -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+                  transform: translate(-50%, -50%); }
 
 .order-price__old {
   position: relative;
@@ -568,6 +592,13 @@ a.animated-button.victoria-two:after {
     font-size: 14px; }
     .confidential a:hover {
       text-decoration: underline; }
+
+.form-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 24px;
+  font-family: roadradio; }
 
 @-webkit-keyframes wobble {
   0% {
