@@ -27,3 +27,9 @@ $(document).ready(function(){
         })
     })
 });
+
+setTimeout(function(){
+    if($('.rngst_phone_button').length > 0){
+        $('.header-callback').after($('.rngst_phone_button'));
+    }
+}, 1500);
