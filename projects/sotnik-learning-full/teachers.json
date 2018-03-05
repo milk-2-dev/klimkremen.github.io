@@ -1,0 +1,26 @@
+{
+  "teacher1" : {
+    "name" : "Ярослав Зинченко",
+    "description" : "Эксперт в построение стратегии продвижения и подбор инструментов контекстной рекламы, запуск и ведение кампаний в Google AdWords и Яндекс Директ.<br><br>Больше всего любит работать с e-commerce проектами и с мобильными приложениями.<br><br>Был спикером на конференции Lviv iCamp 2016, выступает спикером на совместных ивентах компаний Google и SOTNIK.<br><br>Проводит вебинары для Академии интернет-маркетинга «WebpromoExperts».<br><br>Сертифицированный специалист Google AdWords.Сертифицированный специалист Google AnalyticsСертифицированный специалист Яндекс.Метрика",
+    "certificates" : [
+      "../images/certificates/1.png",
+      "../images/certificates/2.png",
+      "../images/certificates/3.png",
+      "../images/certificates/4.png",
+      "../images/certificates/5.png"
+    ]
+  },
+
+  "teacher2" : {
+    "name" : "Максим Гапчук ",
+    "description" : "Эксперт в построение стратегии продвижения и подбор инструментов контекстной рекламы, запуск и ведение кампаний в Google AdWords и Яндекс Директ.<br><br>Больше всего любит работать с e-commerce проектами и с мобильными приложениями.<br><br>Был спикером на конференции Lviv iCamp 2016, выступает спикером на совместных ивентах компаний Google и SOTNIK.<br><br>Проводит вебинары для Академии интернет-маркетинга «WebpromoExperts».<br><br>Сертифицированный специалист Google AdWords.Сертифицированный специалист Google AnalyticsСертифицированный специалист Яндекс.Метрика",
+    "certificates" : [
+      "../images/certificates/1.png",
+      "../images/certificates/2.png",
+      "../images/certificates/3.png",
+      "../images/certificates/4.png",
+      "../images/certificates/5.png"
+    ]
+  }
+}
+
