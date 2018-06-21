@@ -1,0 +1,14 @@
+.add_new_wallet{
+  margin-bottom: 10px;
+
+  &:after{
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  button{
+    float: right;
+  }
+}
+

@@ -1,0 +1,55 @@
+.wallet_container{
+
+}
+
+.wallet_header{
+  margin-bottom:15px;
+}
+
+.wallet_name{
+  text-align: center;
+}
+
+.wallet_body{
+
+}
+
+.add_new_transaction_button{
+  margin-bottom:10px;
+}
+
+.balance_info{
+
+}
+
+.balance_info_item{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(48,82,120,.08);
+  transition: box-shadow .2s ease-in-out;
+}
+
+.balance_info_item_title{
+  color: #324c5b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.balance_info_item_value{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 24px;
+  font-weight: 600;
+
+  &.value_color_green{
+    color: #2dba75;
+  }
+
+  &.value_color_red{
+    color: #f14c52;
+  }
+}

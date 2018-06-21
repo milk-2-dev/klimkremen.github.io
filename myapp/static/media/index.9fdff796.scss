@@ -1,0 +1,25 @@
+.wallets{
+  margin: 0 -10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.wallet_item{
+  width:50%;
+  padding: 10px;
+
+  .media{
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(48,82,120,.08);
+    transition: box-shadow .2s ease-in-out;
+
+    &:hover{
+      box-shadow: 0 5px 15px 0 rgba(48,82,120,.2);
+    }
+  }
+}
