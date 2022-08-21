@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+main {
+  min-height: calc(100vh - 64px);
+}
+
+@keyframes ripple-in {
+  from {
+    border-radius: 100%;
+    -webkit-transform: translateY(-100%) translateZ(0);
+    transform: translateY(-100%) translateZ(0);
+  }
+  to {
+    border-radius: 0;
+    -webkit-transform: translateY(0) translateZ(0);
+    transform: translateY(0) translateZ(0);
+  }
+}

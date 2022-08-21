@@ -1,0 +1,27 @@
+.mainInfo-head {
+  .city-info {
+    display: flex;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .city-name {
+  }
+  .city-time {
+  }
+  .city-temp {
+    margin-bottom: 1.5rem;
+
+    .city-temp-icon {
+    }
+    .city-temp-info {
+      display: flex;
+      justify-content: space-between;
+      span {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: end;
+      }
+    }
+  }
+}
